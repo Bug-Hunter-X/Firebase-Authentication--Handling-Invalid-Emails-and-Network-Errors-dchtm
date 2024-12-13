@@ -1,0 +1,3 @@
+# Firebase Authentication Error Handling
+
+This repository demonstrates a common issue with the Firebase Authentication SDK:  silent failures due to invalid email formats or network connectivity problems. The `authBug.js` file shows how an incorrect email or network disruption can cause authentication to fail without providing clear error messages.  The solution in `authSolution.js` demonstrates improved error handling and user feedback.
